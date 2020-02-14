@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -24,10 +24,12 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+ article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block; 
 }
+
+
 body {
 	line-height: 1;
 }
@@ -79,11 +81,11 @@ p {
     flex-direction: row;
     justify-content: center;
 }
-img { 
+.img12 { 
     width:800px;
     height:150px;
-    margin: 0% 0% 3% 0%;
-}
+    margin: 0% 0% 3% 0%; 
+ }
 .container {
     width: 800px;
     margin: 0 auto;
@@ -224,9 +226,6 @@ img {
 }    
 
 
-
-
-
 .bottom-content {
     display: flex;
     margin: 0 3% 20px;
@@ -260,7 +259,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
+}  */
 
 
 
@@ -268,60 +267,54 @@ footer nav a {
 
 
 /* index.html */
-
-
-
-
+.about1 {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin: 0 20% 0 20%;
+    font-size: 14px;
+}
 
 .all-content {
-     display: flex;
+    display: flex;
     flex-direction: column;
-    
-    justify-content: space-evenly;
-    
 }
-.container about-page {
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; */
+.block .SI {
+    display:flex;
 }
 .block-1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20% 0 20%;
 }
     .strategy {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
         
     }
     .how-we-work {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
         
     }
 .block-2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4% 20% 4% 20%;
 }
-    .places-we-work {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        
-    }
-    .collaboration {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        
-    }
-.block-3 {
-    display: flex;
+ .block-3 {
+    display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
-}    
+    justify-content: space-between;
+    margin: 0 20% 0 20%;
+ }
+ footer nav {
+    
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        background: black;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 20% 0 20%;
+        font-size: 14px;
+    }
