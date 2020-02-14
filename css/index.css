@@ -261,3 +261,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+
+/* index.html */
+
+
+
+
+
+.all-content {
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    
+}
+.container about-page {
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+.block-1 {
+    display: flex;
+}
+    .strategy {
+        display: flex;
+        flex-direction: column;
+    }
+    .how-we-work {
+        display: flex;
+        flex-direction: column;
+    }
+.block-2 {
+    display: flex;
+}
+    .places-we-work {
+        display: flex;
+        flex-direction: column;
+    }
+    .collaboration {
+        display: flex;
+        flex-direction: column;
+    }
